@@ -1,0 +1,267 @@
+#head_region{
+    width : 1800px;
+    height : 160px;
+    margin: auto;
+}
+
+#logo_figure{
+    cursor :pointer;
+    width : 200px;
+    height: 50px;
+    position : relative;
+    left : 18px;
+    border-bottom: solid 1px;
+}
+
+#Log_in_message{
+    cursor : pointer;
+    position : relative;
+    left: 1400px;
+    font-size: 21px;
+    text-underline: teal;
+    height: 0;
+    top : -20px;
+}
+
+#select_links{
+
+    overflow: hidden;
+    background-color : #3ca2ff;
+    position : relative;
+    top : 60px;
+    height : 50px;
+    /*
+    background-color: #0187fc;
+
+    position : relative;
+    top : 10px;*/
+}
+
+#select_links a{
+    float: left;
+    font-size : 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 80px;
+    text-decoration: none;
+    width : 200px;
+}
+
+#select_links a:hover{
+    background-color: #2d81fa;
+    cursor: pointer;
+}
+
+
+#running_figures_board{
+    position: relative;
+    top : 10px;
+    height: 600px;
+    width: 1800px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#running_list{
+    position :relative;
+    top:-16px;
+    left:-40px;
+    list-style: none;
+    width: 1000%;
+    height: 100%;
+}
+
+#running_list:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-shadow:0 0 200px 100px #ffffff inset;
+}
+
+.runnings{
+    float : left;
+}
+
+#left_right_region{
+    position : absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+
+#left_region{
+    float:left;
+    height : 100%;
+}
+
+.left_right_button{
+    height: 100%;
+}
+
+#right_region{
+    float:right;
+    height : 100%;
+}
+
+.left_right_button:hover{
+    background-color: #a5a5a5;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+#message_window{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+    height: 350px;
+    width: 500px;
+    background-color: white;
+}
+
+#message_window_left{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #4189fa;
+    z-index: 20;
+    color: white;
+}
+
+#message_window_right{
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    z-index: 20;
+}
+
+
+#message_window_left div{
+    float :top;
+    font-size: 15px;
+    text-align: center;
+    line-height: 115px;
+    position: relative;
+    height: 33%;
+    border-left : white 3px solid;
+    z-index: 20;
+}
+
+#message_window_left div:hover{
+    cursor: pointer;
+}
+
+#ChePiao{
+    border-bottom: solid 2px #71bcfc;
+}
+
+#ChangYongChaXun{
+    border-bottom: solid 2px #71bcfc;
+}
+
+.message_window_right_boxs{
+    /*border : solid 1px;*/
+    position: relative;
+    width : 80%;
+    height : 85%;
+    top:7.5%;
+    margin: auto;
+}
+
+.above{
+    height: 17%;
+}
+
+#ChePiao_above div{
+    width: 33%;
+}
+
+#ChangYongChaXun_above div{
+    width: 25%;
+}
+
+#DengLu_above div{
+    width: 50%;
+}
+
+.above_element{
+    position: relative;
+    height: 100%;
+    float : left;
+    text-align: center;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    line-height:63px;
+    /*行高要和高度设置的一样，字体才在高度中间*/
+    color : gray;
+    border-bottom: 2px gray solid;
+}
+
+.above_element:hover{
+    cursor: pointer;
+}
+
+.below{
+    /*border : solid 1px red;*/
+    position: relative;
+    width: 100%;
+    height : 80%;
+    margin: auto;
+    top:5%;
+}
+
+.below div{
+    position : relative;
+    float : top;
+    width :100%;
+    height: 20%;
+    margin: auto;
+    left: 2%;
+    top : 3%
+}
+
+@keyframes running_list_move {
+}
+
+@keyframes fadeout_style{
+    from{opacity: 100%}
+    to{opacity: 0}
+}
+
+@keyframes fadein_style{
+    from{opacity: 0}
+    to{opacity: 100%}
+}
+
+ .ui-autocomplete {
+     max-height: 200px;
+     overflow-y: auto;
+     /* 防止水平滚动条 */
+     overflow-x: hidden;
+ }
+/* IE 6 不支持 max-height
+ * 我们使用 height 代替，但是这会强制菜单总是显示为那个高度
+ */
+* html .ui-autocomplete {
+    height: 100px;
+}
+
+
+
+
+
+

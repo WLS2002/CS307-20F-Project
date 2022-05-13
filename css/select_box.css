@@ -1,0 +1,103 @@
+select {
+
+    background-color: #e3e3e3;
+    width: 40%;
+    height: 70%;
+    font-size: 16px;
+    text-align-last: center;
+    appearance:none; /*去掉下拉箭头*/
+    border: none;
+    border-radius : 12px;
+}
+select::-ms-expand{
+    display: none;
+/*    remove arrow*/
+}
+
+
+
+/*顺便这里把日期选择也改下*/
+
+.date{
+    position: relative;
+    background-color: #e3e3e3;
+    height: 70%;
+    border-radius : 12px;
+    text-align: center;
+    left: 16%;
+    border: none;
+    font-size: 16px;
+}
+/*顺便这里把按钮也改下*/
+.ChaXunButton{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-color: #ff5d00;
+    border-bottom: none;
+    border-radius : 12px;
+    color: white;
+    font-size: 16px;
+    top:20%;
+}
+
+.ChaXunButton:hover{
+    cursor : pointer;
+    background-color: orangered;
+}
+
+/*
+单选框
+*/
+#ChaXunLeiXing_DaoDa{
+    position: relative;
+    left : 8%;
+}
+
+#ChaXunLeiXing_ChuFa{
+    position: relative;
+    left : 15%;
+}
+
+#radio_1{
+    position: relative;
+    left : 8%;
+}
+#radio_2{
+    position: relative;
+    left : 15%;
+}
+
+/*
+输入框
+ */
+
+.text{
+    position: relative;
+    background-color: #e3e3e3;
+    height: 70%;
+    border-radius : 12px;
+    text-align: center;
+    left: 13%;
+    border: none;
+    font-size: 16px;
+}
+
+
+/*
+密码框
+ */
+.password{
+    position: relative;
+    background-color: #e3e3e3;
+    height: 70%;
+    border-radius : 12px;
+    text-align: center;
+    left: 13%;
+    border: none;
+    font-size: 16px;
+}
+
+#ShenFenZhengHao{
+    left: 8%;
+}
